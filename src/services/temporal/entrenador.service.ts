@@ -11,7 +11,7 @@ export class EntrenadorService {
     private entrenadores: any[] = [];
 
     constructor(private readonly httpService: HttpService) {
-        const url = 'https://run.mocky.io/v3/715b43ee-bcf9-4888-9912-9d0135c5877e'
+        const url = 'https://run.mocky.io/v3/c15cfc4d-957e-4956-ad8d-179c0ef688c5'
         // Cargar los entrenadores al iniciar el servicio
         this.cargarEntrenadores(url);
     }
@@ -20,11 +20,11 @@ export class EntrenadorService {
         try {
             const { data } = await firstValueFrom(this.httpService.get(url));
 
-            if (!data || !data.entrenadores || !Array.isArray(data.entrenadores)) {
+            if (!data || !data.trainers || !Array.isArray(data.trainers)) {
                 throw new Error('Formato de respuesta inválido');
             }
 
-            this.entrenadores = data.entrenadores;
+            this.entrenadores = data.trainers;
 
             this.logger.log(`${this.entrenadores.length} entrenadores cargados correctamente`);
         } catch (error) {
