@@ -13,7 +13,7 @@ export class PokemonService {
     constructor(
         private readonly httpService: HttpService
     ) {
-        const url="https://run.mocky.io/v3/80b8134b-409a-4d85-bb3c-52a4a5548c36"
+        const url="https://run.mocky.io/v3/23d52f40-b336-4a7b-a2ee-c6f58d3c8b0e"
         // Cargar los Pokemon al iniciar el servicio
         this.cargarPokemones(url);
     }

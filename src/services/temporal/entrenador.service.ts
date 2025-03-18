@@ -11,7 +11,7 @@ export class EntrenadorService {
     private entrenadores: any[] = [];
 
     constructor(private readonly httpService: HttpService) {
-        const url = 'https://run.mocky.io/v3/db4b26dc-937b-449e-afd8-cfccf699d29a'
+        const url = 'https://run.mocky.io/v3/715b43ee-bcf9-4888-9912-9d0135c5877e'
         // Cargar los entrenadores al iniciar el servicio
         this.cargarEntrenadores(url);
     }
