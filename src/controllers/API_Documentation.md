@@ -1,6 +1,6 @@
 # API de Entrenadores, Equipos y Pokémon
 
-Este documento describe los endpoints disponibles en la API de entrenadores, equipos y Pokémon.
+Este documento describe los endientas disponibles en la API de entrenadores, equipos y Pokémon.
 
 ## **Entrenadores**
 
@@ -64,7 +64,7 @@ Este documento describe los endpoints disponibles en la API de entrenadores, equ
   }
   ```
 
-### Obtener un equipo de entrenador por ID
+### Obtener un equipo de entrenador por ID 
 - **Endpoint:** `GET /api/equipos-entrenador/:id`
 - **Código de respuesta:** `200 OK`, `404 Not Found`
 - **Respuesta:**
@@ -117,6 +117,7 @@ Este documento describe los endpoints disponibles en la API de entrenadores, equ
 - **Body:**
   ```json
   {
+    "entrenadorId":"1",
     "nombre": "Equipo Pikachu",
     "pokemonIds": [25, 4, 7]
   }
@@ -147,6 +148,7 @@ Este documento describe los endpoints disponibles en la API de entrenadores, equ
 - **Body:**
   ```json
   {
+    "id":"eq123"
     "nombre": "Equipo Evoluciones",
     "pokemonIds": [133, 134, 135, 136]
   }
