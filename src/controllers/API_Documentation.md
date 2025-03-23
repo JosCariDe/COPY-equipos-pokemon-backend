@@ -12,10 +12,11 @@ Este documento describe los endpoints disponibles en la API de entrenadores, equ
   ```json
   [
     {
-      "id": 1,
-      "nombre": "Ash Ketchum",
-      "edad": 10,
-      "sexo": "Masculino"
+      "id": "1",
+      "birth_date": "1990-01-01",
+      "email": "ash.ketchum@example.com",
+      "first_name": "Ash",
+      "last_name": "Ketchum"
     }
   ]
   ```
@@ -29,10 +30,11 @@ Este documento describe los endpoints disponibles en la API de entrenadores, equ
 - **Respuesta:**
   ```json
   {
-      "id": 1,
-      "nombre": "Ash Ketchum",
-      "edad": 10,
-      "sexo": "Masculino"
+      "id": "1",
+      "birth_date": "1990-01-01",
+      "email": "ash.ketchum@example.com",
+      "first_name": "Ash",
+      "last_name": "Ketchum"
     }
   ```
 
