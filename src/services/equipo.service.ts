@@ -75,7 +75,7 @@ export class EquipoService {
         const docRef = await addDoc(equipoRef, equipoData.getSaveJson())
         this.logger.log(`Equipo creado con ID: ${docRef.id} para entrenador: ${entrenadorId}`)
         // añadir el equipo al entrenador
-        const q = query(collection(this.db, this.equiposEntrenadorCollection), where("entrenadorId", "==", parseInt(entrenadorId)));
+        const q = query(collection(this.db, this.equiposEntrenadorCollection), where("entrenadorId", "==", entrenadorId));
         const querySnapshot = await getDocs(q);
         if (!querySnapshot.empty) {
           const entrenadorDoc = querySnapshot.docs[0]; // Asumimos que hay solo un entrenador con este ID

@@ -41,7 +41,7 @@ export class EntrenadorService {
     }
 
     obtenerEntrenadorPorId(id: number): any {
-        const entrenador = this.entrenadores.find(e => e.id === id);
+        const entrenador = this.entrenadores.find(e => e.id == id);
 
         if (!entrenador) {
             throw new HttpException(
