@@ -1,0 +1,786 @@
+{
+    "pokemones": [
+        {
+            "id": 1,
+            "nombre": "Bulbasaur",
+            "tipos": [
+              "Planta",
+              "Veneno"
+            ],
+            "nivel": 5,
+            "estadisticas": {
+              "hp": 45,
+              "ataque": 49,
+              "defensa": 49,
+              "ataque_especial": 65,
+              "defensa_especial": 65,
+              "velocidad": 45
+            },
+            "movimientos": [
+              "Placaje",
+              "Gruñido",
+              "Drenadoras",
+              "Latigazo"
+            ],
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png"
+          },
+          {
+            "id": 2,
+            "nombre": "Ivysaur",
+            "tipos": [
+              "Planta",
+              "Veneno"
+            ],
+            "nivel": 16,
+            "estadisticas": {
+              "hp": 60,
+              "ataque": 62,
+              "defensa": 63,
+              "ataque_especial": 80,
+              "defensa_especial": 80,
+              "velocidad": 60
+            },
+            "movimientos": [
+              "Placaje",
+              "Gruñido",
+              "Drenadoras",
+              "Latigazo"
+            ],
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png"
+          },
+          {
+            "id": 3,
+            "nombre": "Venusaur",
+            "tipos": [
+              "Planta",
+              "Veneno"
+            ],
+            "nivel": 32,
+            "estadisticas": {
+              "hp": 80,
+              "ataque": 82,
+              "defensa": 83,
+              "ataque_especial": 100,
+              "defensa_especial": 100,
+              "velocidad": 80
+            },
+            "movimientos": [
+              "Drenadoras",
+              "Latigazo",
+              "Rayo Solar",
+              "Bomba Lodo"
+            ],
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png"
+          },
+          {
+            "id": 4,
+            "nombre": "Charmander",
+            "tipos": [
+              "Fuego"
+            ],
+            "nivel": 5,
+            "estadisticas": {
+              "hp": 39,
+              "ataque": 52,
+              "defensa": 43,
+              "ataque_especial": 60,
+              "defensa_especial": 50,
+              "velocidad": 65
+            },
+            "movimientos": [
+              "Arañazo",
+              "Gruñido",
+              "Ascuas",
+              "Pantalla de Humo"
+            ],
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png"
+          },
+          {
+            "id": 5,
+            "nombre": "Charmeleon",
+            "tipos": [
+              "Fuego"
+            ],
+            "nivel": 16,
+            "estadisticas": {
+              "hp": 58,
+              "ataque": 64,
+              "defensa": 58,
+              "ataque_especial": 80,
+              "defensa_especial": 65,
+              "velocidad": 80
+            },
+            "movimientos": [
+              "Arañazo",
+              "Gruñido",
+              "Ascuas",
+              "Pantalla de Humo"
+            ],
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png"
+          },
+          {
+            "id": 6,
+            "nombre": "Charizard",
+            "tipos": [
+              "Fuego",
+              "Volador"
+            ],
+            "nivel": 36,
+            "estadisticas": {
+              "hp": 78,
+              "ataque": 84,
+              "defensa": 78,
+              "ataque_especial": 109,
+              "defensa_especial": 85,
+              "velocidad": 100
+            },
+            "movimientos": [
+              "Lanzallamas",
+              "Vuelo",
+              "Garra Dragón",
+              "Terremoto"
+            ],
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png"
+          },
+          {
+            "id": 7,
+            "nombre": "Squirtle",
+            "tipos": [
+              "Agua"
+            ],
+            "nivel": 5,
+            "estadisticas": {
+              "hp": 44,
+              "ataque": 48,
+              "defensa": 65,
+              "ataque_especial": 50,
+              "defensa_especial": 64,
+              "velocidad": 43
+            },
+            "movimientos": [
+              "Placaje",
+              "Látigo",
+              "Pistola Agua",
+              "Refugio"
+            ],
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png"
+          },
+          {
+            "id": 8,
+            "nombre": "Wartortle",
+            "tipos": [
+              "Agua"
+            ],
+            "nivel": 16,
+            "estadisticas": {
+              "hp": 59,
+              "ataque": 63,
+              "defensa": 80,
+              "ataque_especial": 65,
+              "defensa_especial": 80,
+              "velocidad": 58
+            },
+            "movimientos": [
+              "Placaje",
+              "Látigo",
+              "Pistola Agua",
+              "Refugio"
+            ],
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/8.png"
+          },
+          {
+            "id": 9,
+            "nombre": "Blastoise",
+            "tipos": [
+              "Agua"
+            ],
+            "nivel": 36,
+            "estadisticas": {
+              "hp": 79,
+              "ataque": 83,
+              "defensa": 100,
+              "ataque_especial": 85,
+              "defensa_especial": 105,
+              "velocidad": 78
+            },
+            "movimientos": [
+              "Hidrobomba",
+              "Surf",
+              "Rayo Hielo",
+              "Terremoto"
+            ],
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png"
+          },
+          {
+            "id": 10,
+            "nombre": "Caterpie",
+            "tipos": [
+              "Bicho"
+            ],
+            "nivel": 5,
+            "estadisticas": {
+              "hp": 45,
+              "ataque": 30,
+              "defensa": 35,
+              "ataque_especial": 20,
+              "defensa_especial": 20,
+              "velocidad": 45
+            },
+            "movimientos": [
+              "Placaje",
+              "Disparo Demora"
+            ],
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10.png"
+          },
+          {
+            "id": 11,
+            "nombre": "Metapod",
+            "tipos": [
+              "Bicho"
+            ],
+            "nivel": 7,
+            "estadisticas": {
+              "hp": 50,
+              "ataque": 20,
+              "defensa": 55,
+              "ataque_especial": 25,
+              "defensa_especial": 25,
+              "velocidad": 30
+            },
+            "movimientos": [
+              "Fortaleza"
+            ],
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/11.png"
+          },
+          {
+            "id": 12,
+            "nombre": "Butterfree",
+            "tipos": [
+              "Bicho",
+              "Volador"
+            ],
+            "nivel": 10,
+            "estadisticas": {
+              "hp": 60,
+              "ataque": 45,
+              "defensa": 50,
+              "ataque_especial": 90,
+              "defensa_especial": 80,
+              "velocidad": 70
+            },
+            "movimientos": [
+              "Confusión",
+              "Somnífero",
+              "Paralizador",
+              "Drenadoras"
+            ],
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/12.png"
+          },
+          {
+            "id": 13,
+            "nombre": "Weedle",
+            "tipos": [
+              "Bicho",
+              "Veneno"
+            ],
+            "nivel": 5,
+            "estadisticas": {
+              "hp": 40,
+              "ataque": 35,
+              "defensa": 30,
+              "ataque_especial": 20,
+              "defensa_especial": 20,
+              "velocidad": 50
+            },
+            "movimientos": [
+              "Picotazo",
+              "Disparo Demora"
+            ],
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/13.png"
+          },
+          {
+            "id": 14,
+            "nombre": "Kakuna",
+            "tipos": [
+              "Bicho",
+              "Veneno"
+            ],
+            "nivel": 7,
+            "estadisticas": {
+              "hp": 45,
+              "ataque": 25,
+              "defensa": 50,
+              "ataque_especial": 25,
+              "defensa_especial": 25,
+              "velocidad": 35
+            },
+            "movimientos": [
+              "Fortaleza"
+            ],
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/14.png"
+          },
+          {
+            "id": 15,
+            "nombre": "Beedrill",
+            "tipos": [
+              "Bicho",
+              "Veneno"
+            ],
+            "nivel": 10,
+            "estadisticas": {
+              "hp": 65,
+              "ataque": 90,
+              "defensa": 40,
+              "ataque_especial": 45,
+              "defensa_especial": 80,
+              "velocidad": 75
+            },
+            "movimientos": [
+              "Picotazo Veneno",
+              "Ataque Furia",
+              "Doble Ataque",
+              "Tóxico"
+            ],
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/15.png"
+          },
+          {
+            "id": 16,
+            "nombre": "Pidgey",
+            "tipos": [
+              "Normal",
+              "Volador"
+            ],
+            "nivel": 5,
+            "estadisticas": {
+              "hp": 40,
+              "ataque": 45,
+              "defensa": 40,
+              "ataque_especial": 35,
+              "defensa_especial": 35,
+              "velocidad": 56
+            },
+            "movimientos": [
+              "Placaje",
+              "Remolino"
+            ],
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/16.png"
+          },
+          {
+            "id": 17,
+            "nombre": "Pidgeotto",
+            "tipos": [
+              "Normal",
+              "Volador"
+            ],
+            "nivel": 18,
+            "estadisticas": {
+              "hp": 63,
+              "ataque": 60,
+              "defensa": 55,
+              "ataque_especial": 50,
+              "defensa_especial": 50,
+              "velocidad": 71
+            },
+            "movimientos": [
+              "Ataque Ala",
+              "Remolino",
+              "Ataque Rápido"
+            ],
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/17.png"
+          },
+          {
+            "id": 18,
+            "nombre": "Pidgeot",
+            "tipos": [
+              "Normal",
+              "Volador"
+            ],
+            "nivel": 36,
+            "estadisticas": {
+              "hp": 83,
+              "ataque": 80,
+              "defensa": 75,
+              "ataque_especial": 70,
+              "defensa_especial": 70,
+              "velocidad": 101
+            },
+            "movimientos": [
+              "Tornado",
+              "Agilidad",
+              "Ataque Ala",
+              "Hiperrayo"
+            ],
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/18.png"
+          },
+          {
+            "id": 19,
+            "nombre": "Rattata",
+            "tipos": [
+              "Normal"
+            ],
+            "nivel": 4,
+            "estadisticas": {
+              "hp": 30,
+              "ataque": 56,
+              "defensa": 35,
+              "ataque_especial": 25,
+              "defensa_especial": 35,
+              "velocidad": 72
+            },
+            "movimientos": [
+              "Placaje",
+              "Ataque Rápido"
+            ],
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/19.png"
+          },
+          {
+            "id": 20,
+            "nombre": "Raticate",
+            "tipos": [
+              "Normal"
+            ],
+            "nivel": 20,
+            "estadisticas": {
+              "hp": 55,
+              "ataque": 81,
+              "defensa": 60,
+              "ataque_especial": 50,
+              "defensa_especial": 70,
+              "velocidad": 97
+            },
+            "movimientos": [
+              "Hipercolmillo",
+              "Ataque Rápido",
+              "Doble Filo"
+            ],
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/20.png"
+          },
+          {
+            "id": 21,
+            "nombre": "Spearow",
+            "tipos": [
+              "Normal",
+              "Volador"
+            ],
+            "nivel": 5,
+            "estadisticas": {
+              "hp": 40,
+              "ataque": 60,
+              "defensa": 30,
+              "ataque_especial": 31,
+              "defensa_especial": 31,
+              "velocidad": 70
+            },
+            "movimientos": [
+              "Picotazo",
+              "Gruñido",
+              "Ataque Rápido",
+              "Furia"
+            ],
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/21.png"
+          },
+          {
+            "id": 22,
+            "nombre": "Fearow",
+            "tipos": [
+              "Normal",
+              "Volador"
+            ],
+            "nivel": 20,
+            "estadisticas": {
+              "hp": 65,
+              "ataque": 90,
+              "defensa": 65,
+              "ataque_especial": 61,
+              "defensa_especial": 61,
+              "velocidad": 100
+            },
+            "movimientos": [
+              "Picotazo",
+              "Ataque Rápido",
+              "Perforador",
+              "Agilidad"
+            ],
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/22.png"
+          },
+          {
+            "id": 23,
+            "nombre": "Ekans",
+            "tipos": [
+              "Veneno"
+            ],
+            "nivel": 5,
+            "estadisticas": {
+              "hp": 35,
+              "ataque": 60,
+              "defensa": 44,
+              "ataque_especial": 40,
+              "defensa_especial": 54,
+              "velocidad": 55
+            },
+            "movimientos": [
+              "Constricción",
+              "Gruñido",
+              "Picotazo Veneno",
+              "Ácido"
+            ],
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/23.png"
+          },
+          {
+            "id": 24,
+            "nombre": "Arbok",
+            "tipos": [
+              "Veneno"
+            ],
+            "nivel": 22,
+            "estadisticas": {
+              "hp": 60,
+              "ataque": 95,
+              "defensa": 69,
+              "ataque_especial": 65,
+              "defensa_especial": 79,
+              "velocidad": 80
+            },
+            "movimientos": [
+              "Mordisco",
+              "Cola Férrea",
+              "Ácido",
+              "Enrosque"
+            ],
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/24.png"
+          },
+          {
+            "id": 25,
+            "nombre": "Pikachu",
+            "tipos": [
+              "Eléctrico"
+            ],
+            "nivel": 5,
+            "estadisticas": {
+              "hp": 35,
+              "ataque": 55,
+              "defensa": 40,
+              "ataque_especial": 50,
+              "defensa_especial": 50,
+              "velocidad": 90
+            },
+            "movimientos": [
+              "Impactrueno",
+              "Gruñido",
+              "Ataque Rápido",
+              "Cola Férrea"
+            ],
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png"
+          },
+          {
+            "id": 26,
+            "nombre": "Raichu",
+            "tipos": [
+              "Eléctrico"
+            ],
+            "nivel": 26,
+            "estadisticas": {
+              "hp": 60,
+              "ataque": 90,
+              "defensa": 55,
+              "ataque_especial": 90,
+              "defensa_especial": 80,
+              "velocidad": 110
+            },
+            "movimientos": [
+              "Impactrueno",
+              "Rayo",
+              "Puño Trueno",
+              "Cola Férrea"
+            ],
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/26.png"
+          },
+          {
+            "id": 27,
+            "nombre": "Sandshrew",
+            "tipos": [
+              "Tierra"
+            ],
+            "nivel": 5,
+            "estadisticas": {
+              "hp": 50,
+              "ataque": 75,
+              "defensa": 85,
+              "ataque_especial": 20,
+              "defensa_especial": 30,
+              "velocidad": 40
+            },
+            "movimientos": [
+              "Placaje",
+              "Gruñido",
+              "Arañazo",
+              "Puño Fuego"
+            ],
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/27.png"
+          },
+          {
+            "id": 28,
+            "nombre": "Sandslash",
+            "tipos": [
+              "Tierra"
+            ],
+            "nivel": 22,
+            "estadisticas": {
+              "hp": 75,
+              "ataque": 100,
+              "defensa": 110,
+              "ataque_especial": 45,
+              "defensa_especial": 55,
+              "velocidad": 65
+            },
+            "movimientos": [
+              "Puño Tierra",
+              "Puño Trueno",
+              "Puño Fuego",
+              "Cola Férrea"
+            ],
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/28.png"
+          },
+          {
+            "id": 29,
+            "nombre": "Nidoran♀",
+            "tipos": [
+              "Veneno"
+            ],
+            "nivel": 5,
+            "estadisticas": {
+              "hp": 55,
+              "ataque": 47,
+              "defensa": 52,
+              "ataque_especial": 40,
+              "defensa_especial": 40,
+              "velocidad": 41
+            },
+            "movimientos": [
+              "Placaje",
+              "Gruñido",
+              "Desarme",
+              "Drenadoras"
+            ],
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/29.png"
+          },
+          {
+            "id": 30,
+            "nombre": "Nidorina",
+            "tipos": [
+              "Veneno"
+            ],
+            "nivel": 16,
+            "estadisticas": {
+              "hp": 70,
+              "ataque": 62,
+              "defensa": 67,
+              "ataque_especial": 55,
+              "defensa_especial": 55,
+              "velocidad": 56
+            },
+            "movimientos": [
+              "Placaje",
+              "Gruñido",
+              "Desarme",
+              "Drenadoras"
+            ],
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/30.png"
+          },
+          {
+            "id": 31,
+            "nombre": "Nidoqueen",
+            "tipos": [
+              "Veneno",
+              "Tierra"
+            ],
+            "nivel": 36,
+            "estadisticas": {
+              "hp": 90,
+              "ataque": 92,
+              "defensa": 87,
+              "ataque_especial": 75,
+              "defensa_especial": 85,
+              "velocidad": 76
+            },
+            "movimientos": [
+              "Terremoto",
+              "Puño Tierra",
+              "Puño Trueno",
+              "Puño Fuego"
+            ],
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/31.png"
+          },
+          {
+            "id": 32,
+            "nombre": "Nidoran♂",
+            "tipos": [
+              "Veneno"
+            ],
+            "nivel": 5,
+            "estadisticas": {
+              "hp": 46,
+              "ataque": 57,
+              "defensa": 40,
+              "ataque_especial": 40,
+              "defensa_especial": 40,
+              "velocidad": 50
+            },
+            "movimientos": [
+              "Gruñido",
+              "Doble Patada",
+              "Picotazo Veneno",
+              "Ataque Rápido"
+            ],
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/32.png"
+          },
+          {
+            "id": 33,
+            "nombre": "Nidorino",
+            "tipos": [
+              "Veneno"
+            ],
+            "nivel": 16,
+            "estadisticas": {
+              "hp": 61,
+              "ataque": 72,
+              "defensa": 57,
+              "ataque_especial": 55,
+              "defensa_especial": 55,
+              "velocidad": 65
+            },
+            "movimientos": [
+              "Doble Patada",
+              "Picotazo Veneno",
+              "Mordisco",
+              "Furia"
+            ],
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/33.png"
+          },
+          {
+            "id": 34,
+            "nombre": "Nidoking",
+            "tipos": [
+              "Veneno",
+              "Tierra"
+            ],
+            "nivel": 36,
+            "estadisticas": {
+              "hp": 81,
+              "ataque": 102,
+              "defensa": 77,
+              "ataque_especial": 85,
+              "defensa_especial": 75,
+              "velocidad": 85
+            },
+            "movimientos": [
+              "Terremoto",
+              "Garra Dragón",
+              "Onda Tóxica",
+              "Puño Hielo"
+            ],
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/34.png"
+          }
+    ]
+  }
+  

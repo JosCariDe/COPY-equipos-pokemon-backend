@@ -14,7 +14,7 @@ export class EntrenadorService {
         //const url = 'https://run.mocky.io/v3/2be2a18d-73f3-445a-afac-74cedd89bb9b'
         const url = 'https://poke-trainers-ajgecqfncabxfsfp.canadacentral-01.azurewebsites.net/api/trainers'
         // Cargar los entrenadores al iniciar el servicio
-        this.cargarEntrenadores(url);
+        
     }
 
     private async cargarEntrenadores(url: string): Promise<void> {
